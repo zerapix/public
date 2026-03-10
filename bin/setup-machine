@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### To Run This Install Script, Do This Terminal Command:
-# curl -sSL -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/zerapix/public/main/bin/machine-setup | bash
+# curl -sSL -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/zerapix/public/refs/heads/main/bin/setup-machine | bash
 
 ############################################################################
 # In General, this file will setup a machine.
