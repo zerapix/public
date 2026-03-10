@@ -3,7 +3,7 @@ name = "fury"
 url = "https://pypi.fury.io/zerapix"
 explicit = true
 
-[tool.uv.sources]
+[sources]
 zsetup = { index = "fury" }
 zlogging = { index = "fury" }
 zauth = { index = "fury" }
