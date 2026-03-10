@@ -1,0 +1,12 @@
+[[index]]
+name = "fury"
+url = "https://pypi.fury.io/zerapix"
+explicit = true
+
+[tool.uv.sources]
+zsetup = { index = "fury" }
+zlogging = { index = "fury" }
+zauth = { index = "fury" }
+zrely = { index = "fury" }
+zkit = { index = "fury" }
+zp = { index = "fury" }
