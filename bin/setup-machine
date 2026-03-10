@@ -1,7 +1,12 @@
 #!/bin/bash
 
-## To Run This Install Script, Do This Terminal Command:
+### To Run This Install Script, Do This Terminal Command:
 # curl -sSL -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/zerapix/public/main/bin/install | bash
+
+############################################################################
+# In General, this file will setup a machine.
+# For now I only have it installing uv and zp, will do more in the future.
+# ---------------------------------------------------------------------
 
 # Ensure `uv` is installed
 curl -LsSf https://astral.sh/uv/install.sh | sh
