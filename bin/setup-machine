@@ -18,4 +18,4 @@ mkdir -p ~/.config/uv/
 curl -sSL -H 'Cache-Control: no-cache, no-store' https://raw.githubusercontent.com/zerapix/public/main/uv.toml > ~/.config/uv/uv.toml
 
 # `--index` should not be needed due to above `uv.toml` file, but including it here just in case (since this is a script and not a user typing it in).
-uv tool install --index https://pypi.fury.io/zerapix zp
+uv tool install --force --index https://pypi.fury.io/zerapix zp
